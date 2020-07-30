@@ -639,18 +639,52 @@
               <div class="form-group mt-3">
                 <input
                   type="email"
-                  id="name"
-                  class="form-control form-control-lg"
+                  id="email"
+                  placeholder="email"
+                  class="form-control"
                 />
               </div>
               <!-- Phone -->
               <div class="form-group mt-3">
                 <input
-                  type="text"
-                  id="name"
-                  class="form-control form-control-lg"
+                  type="tel"
+                  id="phone"
+                  class="form-control"
+                  placeholder="phone"
                 />
               </div>
+              <!-- input group -->
+              <div class="input-group my-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text">username</span>
+                </div>
+                <input type="text" class="form-control" id="group-username" />
+              </div>
+              <!--font-awesome instead of username prepend-->
+              <div class="input-group my-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text"
+                    ><i class="fas fa-user"></i
+                  ></span>
+                </div>
+                <!-- end of prepend -->
+                <!-- Append -->
+                <input
+                  type="text"
+                  class="form-control"
+                  id="group-username-1"
+                  placeholder="username"
+                />
+                <div class="input-group-append">
+                  <button type="button" class="btn btn-primary">submit</button>
+                </div>
+              </div>
+              <button
+                type="submit"
+                class="btn btn-outline-dark btn-block text-uppercase"
+              >
+                sign up here
+              </button>
             </form>
           </div>
         </div>
@@ -671,6 +705,42 @@
       </div>
     </section>
     <!-- EndContact Section -->
+    <!-- contact section -->
+    <section id="review" class=" py-5 bg-danger ">
+      <div class="container">
+        <!-- Section title -->
+        <div class="row">
+          <div class="col text-center">
+            <h1 class="display-4 text-uppercase text-dark mb-0">
+              <strong>review</strong>
+            </h1>
+            <div class="title-underline bg-secondary"></div>
+          </div>
+        </div>
+      </div>
+      <!-- End of section-title -->
+      <div class="row">
+        <div class="col-md-6 my-4">
+          <img
+            src="/Bootstrap/setup/img/team-6.jpg"
+            class="img-fluid rounded-circle"
+            alt="team"
+          />
+        </div>
+        <div class="col-md-6 my-4"></div>
+        <blockquote class="blockquote text-right">
+          <p>
+            <i class="fas fa-quote-left fa-2x mr-3"></i>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum,
+            asperiores repellat nisi voluptate tempore odit voluptatibus veniam.
+            Cupiditate, cumque totam!
+          </p>
+          <footer class="blockquote-footer text-left">master coder</footer>
+        </blockquote>
+      </div>
+    </section>
+
+    <!-- end of contact section -->
 
     <!-- jquery -->
     <script src="./js/jquery-3.3.1.min.js"></script>
